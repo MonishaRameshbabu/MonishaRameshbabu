@@ -8,7 +8,7 @@ public class myIpAddress {
 			InetAddress ip=InetAddress.getLocalHost();
 			System.out.println("my IP addrs:"+ip.getHostAddress());
 		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generated catch blockS
 			e.printStackTrace();
 		}
 	}
